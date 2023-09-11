@@ -1,0 +1,24 @@
+.wrapper {
+  padding: 10px;
+  background-color: white;
+  word-break: break-all;
+  display: grid;
+  grid-template-columns: 1fr 30px 30px;
+  align-items: center;
+  gap: 10px;
+}
+
+.wrapper button {
+  all: unset;
+  min-height: 24px;
+  min-width: 24px;
+  cursor: pointer;
+}
+
+.wrapper button:nth-child(2) {
+  background: url('../../../assets/edit.svg') center center/24px 24px no-repeat;
+}
+
+.wrapper button:nth-child(3) {
+  background: url('../../../assets/delete.svg') center center/24px 24px no-repeat;
+}

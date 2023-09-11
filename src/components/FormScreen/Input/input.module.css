@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  justify-content: end;
+  position: relative;
+}
+
+.wrapper input {
+  padding: 12px 20px;
+  border: 1px solid rgba(0, 0, 255, 0.5);
+  background-color: #f8f8f8;
+  outline: none;
+}
+
+.wrapper p {
+  color: rgb(116, 116, 116);
+}
+
+.wrapper .error {
+  color: red;
+  font-size: 12px;
+}
+
+.wrapper input[type="number"]::-webkit-outer-spin-button,
+.wrapper input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.wrapper input[type="number"],
+.wrapper input[type="number"]:hover,
+.wrapper input[type="number"]:focus {
+  appearance: none;
+  -moz-appearance: textfield;
+}
+
+.wrapper input[type="checkbox"] {
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.wrapper img {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}

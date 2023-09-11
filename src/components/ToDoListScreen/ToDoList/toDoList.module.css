@@ -1,0 +1,17 @@
+.wrapper {
+  max-width: 600px;
+  margin: auto;
+  background-color: #d9eaf7;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.input {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  gap: 10px;
+}
+
+.wrapper h2 {
+  text-align: center;
+}

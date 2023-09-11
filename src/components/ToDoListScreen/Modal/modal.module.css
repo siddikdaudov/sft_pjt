@@ -1,0 +1,24 @@
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid #ececec;
+  background-color: #f7f6d8;
+  padding: 10px;
+}
+
+.close {
+  padding: 2px 7px;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: none;
+}
